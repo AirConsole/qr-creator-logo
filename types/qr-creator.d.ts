@@ -20,6 +20,8 @@ declare namespace QrCreator {
         background?: string | null,
         radius?: number,
         quiet?: number,
+        cornerFill?: string,
+        image?: string
     }
 
     export type ErrorCorrectionLevel = 'L' | 'M' | 'H' | 'Q';
